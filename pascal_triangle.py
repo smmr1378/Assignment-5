@@ -26,6 +26,6 @@ def factorial(n):
    
     return f
 
-
+n = int(input("Enter your number: "))
 for row in pascals_triangle(5):
     print(row)
